@@ -1,0 +1,141 @@
+/* Reset some basic elements */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a box-sizing rule */
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+/* Body and typography styles */
+body {
+    font-family: 'Oswald', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.logo {
+    width: 150px; /* Adjust as needed */
+}
+
+.title {
+    font-family: 'Yellowtail', cursive;
+    font-size: 36px; /* Adjust as needed */
+    color: #a2a2a2;
+}
+
+.subtitle {
+    font-size: 16px;
+    color: #a2a2a2;
+}
+
+/* Navigation styles */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 5px;
+}
+
+nav img {
+    width: 30px; /* Adjust as needed */
+    height: auto;
+}
+
+/* Main content styles */
+main {
+    max-width: 800px; /* Adjust as needed */
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+}
+
+article h1 {
+    font-family: 'Yellowtail', cursive;
+    font-size: 46px; /* Adjust as needed */
+    color: #555;
+}
+
+article h2 {
+    font-size: 11px;
+    color: #aaa;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
+article img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Ingredients list styles */
+.ingredients ul {
+    list-style: none;
+    margin: 20px 0;
+}
+
+.ingredients li {
+    font-size: 18px; /* Adjust as needed */
+    margin-bottom: 10px;
+}
+
+.ingredients label {
+    cursor: pointer;
+}
+
+/* Author section styles */
+.author {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.author img {
+    border-radius: 50%;
+    width: 100px; /* Adjust as needed */
+    margin-right: 20px;
+}
+
+.author h3 {
+    font-size: 24px;
+}
+
+.author p {
+    flex: 1;
+}
+
+/* Footer styles */
+footer {
+    background-color: #fff;
+    border-top: 1px solid #eee;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer img {
+    width: 100px; /* Adjust as needed */
+}
+
+footer p {
+    font-size: 14px;
+    color: #aaa;
+}
